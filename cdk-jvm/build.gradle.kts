@@ -22,6 +22,7 @@ dependencies {
 
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.8.1")
+    testRuntimeOnly(files("${rootProject.projectDir}/cdk-jvm-natives/src/main/resources"))
 }
 
 sourceSets {
@@ -38,6 +39,7 @@ tasks.test {
         showStandardStreams = true
     }
     systemProperty("junit.jupiter.execution.timeout.default", "60s")
+    systemProperty("uniffi.component.cdk_ffi.libraryOverride", "cdk_ffi_kotlin")
     jvmArgs("-Djava.library.path=${project.projectDir}/src/main/resources")
 }
 
