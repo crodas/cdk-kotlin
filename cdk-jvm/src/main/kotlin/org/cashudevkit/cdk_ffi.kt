@@ -1065,6 +1065,8 @@ external fun uniffi_cdk_ffi_checksum_func_npubcash_quote_to_mint_quote(
 ): Short
 external fun uniffi_cdk_ffi_checksum_func_parse_bip321_payment_instruction(
 ): Short
+external fun uniffi_cdk_ffi_checksum_func_postgres_wallet_store(
+): Short
 external fun uniffi_cdk_ffi_checksum_func_proof_has_dleq(
 ): Short
 external fun uniffi_cdk_ffi_checksum_func_proof_is_active(
@@ -1273,6 +1275,8 @@ external fun uniffi_cdk_ffi_checksum_method_wallet_prepare_melt(
 ): Short
 external fun uniffi_cdk_ffi_checksum_method_wallet_prepare_melt_proofs(
 ): Short
+external fun uniffi_cdk_ffi_checksum_method_wallet_prepare_melt_token(
+): Short
 external fun uniffi_cdk_ffi_checksum_method_wallet_prepare_send(
 ): Short
 external fun uniffi_cdk_ffi_checksum_method_wallet_receive(
@@ -1411,6 +1415,106 @@ external fun uniffi_cdk_ffi_checksum_method_walletdatabase_reserve_mint_quote(
 ): Short
 external fun uniffi_cdk_ffi_checksum_method_walletdatabase_release_mint_quote(
 ): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_add_keys(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_add_melt_quote(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_add_mint(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_add_mint_keysets(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_add_mint_quote(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_add_p2pk_key(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_add_saga(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_add_transaction(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_delete_saga(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_balance(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_incomplete_sagas(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_keys(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_keyset_by_id(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_melt_quote(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_melt_quotes(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_mint(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_mint_keysets(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_mint_quote(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_mint_quotes(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_mints(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_p2pk_key(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_proofs(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_proofs_by_ys(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_reserved_proofs(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_saga(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_transaction(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_unissued_mint_quotes(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_increment_keyset_counter(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_kv_list(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_kv_read(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_kv_remove(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_kv_write(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_latest_p2pk(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_list_p2pk_keys(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_list_transactions(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_release_melt_quote(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_release_mint_quote(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_release_proofs(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_remove_keys(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_remove_melt_quote(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_remove_mint(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_remove_mint_quote(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_remove_transaction(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_reserve_melt_quote(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_reserve_mint_quote(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_reserve_proofs(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_update_mint_url(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_update_proofs(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_update_proofs_state(
+): Short
+external fun uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_update_saga(
+): Short
 external fun uniffi_cdk_ffi_checksum_method_walletrepository_create_wallet(
 ): Short
 external fun uniffi_cdk_ffi_checksum_method_walletrepository_get_balances(
@@ -1540,6 +1644,8 @@ external fun uniffi_cdk_ffi_checksum_constructor_token_from_raw_bytes(
 external fun uniffi_cdk_ffi_checksum_constructor_token_from_string(
 ): Short
 external fun uniffi_cdk_ffi_checksum_constructor_wallet_new(
+): Short
+external fun uniffi_cdk_ffi_checksum_constructor_walletpostgresdatabase_new(
 ): Short
 external fun uniffi_cdk_ffi_checksum_constructor_walletrepository_new(
 ): Short
@@ -1806,6 +1912,8 @@ external fun uniffi_cdk_ffi_fn_method_wallet_prepare_melt(`ptr`: Long,`quoteId`:
 ): Long
 external fun uniffi_cdk_ffi_fn_method_wallet_prepare_melt_proofs(`ptr`: Long,`quoteId`: RustBuffer.ByValue,`proofs`: RustBuffer.ByValue,
 ): Long
+external fun uniffi_cdk_ffi_fn_method_wallet_prepare_melt_token(`ptr`: Long,`quoteId`: RustBuffer.ByValue,`encodedToken`: RustBuffer.ByValue,
+): Long
 external fun uniffi_cdk_ffi_fn_method_wallet_prepare_send(`ptr`: Long,`amount`: RustBuffer.ByValue,`options`: RustBuffer.ByValue,
 ): Long
 external fun uniffi_cdk_ffi_fn_method_wallet_receive(`ptr`: Long,`token`: Long,`options`: RustBuffer.ByValue,
@@ -1949,6 +2057,112 @@ external fun uniffi_cdk_ffi_fn_method_walletdatabase_release_melt_quote(`ptr`: L
 external fun uniffi_cdk_ffi_fn_method_walletdatabase_reserve_mint_quote(`ptr`: Long,`quoteId`: RustBuffer.ByValue,`operationId`: RustBuffer.ByValue,
 ): Long
 external fun uniffi_cdk_ffi_fn_method_walletdatabase_release_mint_quote(`ptr`: Long,`operationId`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_clone_walletpostgresdatabase(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
+): Long
+external fun uniffi_cdk_ffi_fn_free_walletpostgresdatabase(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
+): Unit
+external fun uniffi_cdk_ffi_fn_constructor_walletpostgresdatabase_new(`url`: RustBuffer.ByValue,uniffi_out_err: UniffiRustCallStatus, 
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_add_keys(`ptr`: Long,`keyset`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_add_melt_quote(`ptr`: Long,`quote`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_add_mint(`ptr`: Long,`mintUrl`: RustBuffer.ByValue,`mintInfo`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_add_mint_keysets(`ptr`: Long,`mintUrl`: RustBuffer.ByValue,`keysets`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_add_mint_quote(`ptr`: Long,`quote`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_add_p2pk_key(`ptr`: Long,`pubkey`: RustBuffer.ByValue,`derivationPath`: RustBuffer.ByValue,`derivationIndex`: Int,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_add_saga(`ptr`: Long,`sagaJson`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_add_transaction(`ptr`: Long,`transaction`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_delete_saga(`ptr`: Long,`id`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_balance(`ptr`: Long,`mintUrl`: RustBuffer.ByValue,`unit`: RustBuffer.ByValue,`state`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_incomplete_sagas(`ptr`: Long,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_keys(`ptr`: Long,`id`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_keyset_by_id(`ptr`: Long,`keysetId`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_melt_quote(`ptr`: Long,`quoteId`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_melt_quotes(`ptr`: Long,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_mint(`ptr`: Long,`mintUrl`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_mint_keysets(`ptr`: Long,`mintUrl`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_mint_quote(`ptr`: Long,`quoteId`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_mint_quotes(`ptr`: Long,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_mints(`ptr`: Long,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_p2pk_key(`ptr`: Long,`pubkey`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_proofs(`ptr`: Long,`mintUrl`: RustBuffer.ByValue,`unit`: RustBuffer.ByValue,`state`: RustBuffer.ByValue,`spendingConditions`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_proofs_by_ys(`ptr`: Long,`ys`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_reserved_proofs(`ptr`: Long,`operationId`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_saga(`ptr`: Long,`id`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_transaction(`ptr`: Long,`transactionId`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_unissued_mint_quotes(`ptr`: Long,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_increment_keyset_counter(`ptr`: Long,`keysetId`: RustBuffer.ByValue,`count`: Int,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_kv_list(`ptr`: Long,`primaryNamespace`: RustBuffer.ByValue,`secondaryNamespace`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_kv_read(`ptr`: Long,`primaryNamespace`: RustBuffer.ByValue,`secondaryNamespace`: RustBuffer.ByValue,`key`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_kv_remove(`ptr`: Long,`primaryNamespace`: RustBuffer.ByValue,`secondaryNamespace`: RustBuffer.ByValue,`key`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_kv_write(`ptr`: Long,`primaryNamespace`: RustBuffer.ByValue,`secondaryNamespace`: RustBuffer.ByValue,`key`: RustBuffer.ByValue,`value`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_latest_p2pk(`ptr`: Long,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_list_p2pk_keys(`ptr`: Long,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_list_transactions(`ptr`: Long,`mintUrl`: RustBuffer.ByValue,`direction`: RustBuffer.ByValue,`unit`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_release_melt_quote(`ptr`: Long,`operationId`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_release_mint_quote(`ptr`: Long,`operationId`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_release_proofs(`ptr`: Long,`operationId`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_remove_keys(`ptr`: Long,`id`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_remove_melt_quote(`ptr`: Long,`quoteId`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_remove_mint(`ptr`: Long,`mintUrl`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_remove_mint_quote(`ptr`: Long,`quoteId`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_remove_transaction(`ptr`: Long,`transactionId`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_reserve_melt_quote(`ptr`: Long,`quoteId`: RustBuffer.ByValue,`operationId`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_reserve_mint_quote(`ptr`: Long,`quoteId`: RustBuffer.ByValue,`operationId`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_reserve_proofs(`ptr`: Long,`ys`: RustBuffer.ByValue,`operationId`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_update_mint_url(`ptr`: Long,`oldMintUrl`: RustBuffer.ByValue,`newMintUrl`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_update_proofs(`ptr`: Long,`added`: RustBuffer.ByValue,`removedYs`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_update_proofs_state(`ptr`: Long,`ys`: RustBuffer.ByValue,`state`: RustBuffer.ByValue,
+): Long
+external fun uniffi_cdk_ffi_fn_method_walletpostgresdatabase_update_saga(`ptr`: Long,`sagaJson`: RustBuffer.ByValue,
 ): Long
 external fun uniffi_cdk_ffi_fn_clone_walletrepository(`handle`: Long,uniffi_out_err: UniffiRustCallStatus, 
 ): Long
@@ -2190,6 +2404,8 @@ external fun uniffi_cdk_ffi_fn_func_npubcash_quote_to_mint_quote(`quote`: RustBu
 ): RustBuffer.ByValue
 external fun uniffi_cdk_ffi_fn_func_parse_bip321_payment_instruction(`instruction`: RustBuffer.ByValue,`network`: RustBuffer.ByValue,
 ): Long
+external fun uniffi_cdk_ffi_fn_func_postgres_wallet_store(`url`: RustBuffer.ByValue,uniffi_out_err: UniffiRustCallStatus, 
+): RustBuffer.ByValue
 external fun uniffi_cdk_ffi_fn_func_proof_has_dleq(`proof`: RustBuffer.ByValue,uniffi_out_err: UniffiRustCallStatus, 
 ): Byte
 external fun uniffi_cdk_ffi_fn_func_proof_is_active(`proof`: RustBuffer.ByValue,`activeKeysetIds`: RustBuffer.ByValue,uniffi_out_err: UniffiRustCallStatus, 
@@ -2489,6 +2705,9 @@ private fun uniffiCheckApiChecksums(lib: IntegrityCheckingUniffiLib) {
         throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
     }
     if (lib.uniffi_cdk_ffi_checksum_func_parse_bip321_payment_instruction() != 49418.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_func_postgres_wallet_store() != 50185.toShort()) {
         throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
     }
     if (lib.uniffi_cdk_ffi_checksum_func_proof_has_dleq() != 56072.toShort()) {
@@ -2803,6 +3022,9 @@ private fun uniffiCheckApiChecksums(lib: IntegrityCheckingUniffiLib) {
     if (lib.uniffi_cdk_ffi_checksum_method_wallet_prepare_melt_proofs() != 47387.toShort()) {
         throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
     }
+    if (lib.uniffi_cdk_ffi_checksum_method_wallet_prepare_melt_token() != 3555.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
     if (lib.uniffi_cdk_ffi_checksum_method_wallet_prepare_send() != 18579.toShort()) {
         throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
     }
@@ -3010,6 +3232,156 @@ private fun uniffiCheckApiChecksums(lib: IntegrityCheckingUniffiLib) {
     if (lib.uniffi_cdk_ffi_checksum_method_walletdatabase_release_mint_quote() != 5426.toShort()) {
         throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
     }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_add_keys() != 56387.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_add_melt_quote() != 14392.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_add_mint() != 29694.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_add_mint_keysets() != 63125.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_add_mint_quote() != 18330.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_add_p2pk_key() != 15177.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_add_saga() != 62408.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_add_transaction() != 60425.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_delete_saga() != 52539.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_balance() != 26475.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_incomplete_sagas() != 55228.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_keys() != 1364.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_keyset_by_id() != 47211.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_melt_quote() != 15686.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_melt_quotes() != 61301.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_mint() != 1440.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_mint_keysets() != 52552.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_mint_quote() != 62393.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_mint_quotes() != 37612.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_mints() != 51201.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_p2pk_key() != 47953.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_proofs() != 17876.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_proofs_by_ys() != 18842.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_reserved_proofs() != 35811.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_saga() != 30028.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_transaction() != 16334.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_get_unissued_mint_quotes() != 431.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_increment_keyset_counter() != 11359.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_kv_list() != 61533.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_kv_read() != 9724.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_kv_remove() != 55077.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_kv_write() != 45615.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_latest_p2pk() != 61527.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_list_p2pk_keys() != 36644.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_list_transactions() != 57613.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_release_melt_quote() != 33492.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_release_mint_quote() != 54182.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_release_proofs() != 18557.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_remove_keys() != 3270.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_remove_melt_quote() != 13050.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_remove_mint() != 52702.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_remove_mint_quote() != 40583.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_remove_transaction() != 19625.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_reserve_melt_quote() != 25305.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_reserve_mint_quote() != 51050.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_reserve_proofs() != 39792.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_update_mint_url() != 44171.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_update_proofs() != 54294.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_update_proofs_state() != 58913.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_method_walletpostgresdatabase_update_saga() != 21044.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
     if (lib.uniffi_cdk_ffi_checksum_method_walletrepository_create_wallet() != 32021.toShort()) {
         throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
     }
@@ -3203,6 +3575,9 @@ private fun uniffiCheckApiChecksums(lib: IntegrityCheckingUniffiLib) {
         throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
     }
     if (lib.uniffi_cdk_ffi_checksum_constructor_wallet_new() != 18752.toShort()) {
+        throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
+    }
+    if (lib.uniffi_cdk_ffi_checksum_constructor_walletpostgresdatabase_new() != 43914.toShort()) {
         throw RuntimeException("UniFFI API checksum mismatch: try cleaning and rebuilding your project")
     }
     if (lib.uniffi_cdk_ffi_checksum_constructor_walletrepository_new() != 16691.toShort()) {
@@ -7483,6 +7858,23 @@ public interface WalletInterface {
     suspend fun `prepareMeltProofs`(`quoteId`: kotlin.String, `proofs`: List<Proof>): PreparedMelt
     
     /**
+     * Prepare a melt operation from an encoded token
+     *
+     * Decodes the token internally (handling keyset state for v2 keysets),
+     * extracts proofs, and prepares the melt operation.
+     *
+     * # Arguments
+     *
+     * * `quote_id` - The melt quote ID (obtained from `melt_quote`)
+     * * `encoded_token` - The encoded token string (cashuA or cashuB format)
+     *
+     * # Returns
+     *
+     * A `PreparedMelt` that can be confirmed or cancelled
+     */
+    suspend fun `prepareMeltToken`(`quoteId`: kotlin.String, `encodedToken`: kotlin.String): PreparedMelt
+    
+    /**
      * Prepare a send operation
      */
     suspend fun `prepareSend`(`amount`: Amount, `options`: SendOptions): PreparedSend
@@ -8681,6 +9073,42 @@ open class Wallet: Disposable, AutoCloseable, WalletInterface
             UniffiLib.uniffi_cdk_ffi_fn_method_wallet_prepare_melt_proofs(
                 uniffiHandle,
                 FfiConverterString.lower(`quoteId`),FfiConverterSequenceTypeProof.lower(`proofs`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_u64(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_u64(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_u64(future) },
+        // lift function
+        { FfiConverterTypePreparedMelt.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    /**
+     * Prepare a melt operation from an encoded token
+     *
+     * Decodes the token internally (handling keyset state for v2 keysets),
+     * extracts proofs, and prepares the melt operation.
+     *
+     * # Arguments
+     *
+     * * `quote_id` - The melt quote ID (obtained from `melt_quote`)
+     * * `encoded_token` - The encoded token string (cashuA or cashuB format)
+     *
+     * # Returns
+     *
+     * A `PreparedMelt` that can be confirmed or cancelled
+     */
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `prepareMeltToken`(`quoteId`: kotlin.String, `encodedToken`: kotlin.String) : PreparedMelt {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_wallet_prepare_melt_token(
+                uniffiHandle,
+                FfiConverterString.lower(`quoteId`),FfiConverterString.lower(`encodedToken`),
             )
         },
         { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_u64(future, callback, continuation) },
@@ -12790,6 +13218,1433 @@ public object FfiConverterTypeWalletDatabase: FfiConverter<WalletDatabase, Long>
 
 
 //
+public interface WalletPostgresDatabaseInterface {
+    
+    suspend fun `addKeys`(`keyset`: KeySet)
+    
+    suspend fun `addMeltQuote`(`quote`: MeltQuote)
+    
+    suspend fun `addMint`(`mintUrl`: MintUrl, `mintInfo`: MintInfo?)
+    
+    suspend fun `addMintKeysets`(`mintUrl`: MintUrl, `keysets`: List<KeySetInfo>)
+    
+    suspend fun `addMintQuote`(`quote`: MintQuote)
+    
+    suspend fun `addP2pkKey`(`pubkey`: PublicKey, `derivationPath`: kotlin.String, `derivationIndex`: kotlin.UInt)
+    
+    suspend fun `addSaga`(`sagaJson`: kotlin.String)
+    
+    suspend fun `addTransaction`(`transaction`: Transaction)
+    
+    suspend fun `deleteSaga`(`id`: kotlin.String)
+    
+    suspend fun `getBalance`(`mintUrl`: MintUrl?, `unit`: CurrencyUnit?, `state`: List<ProofState>?): kotlin.ULong
+    
+    suspend fun `getIncompleteSagas`(): List<kotlin.String>
+    
+    suspend fun `getKeys`(`id`: Id): Keys?
+    
+    suspend fun `getKeysetById`(`keysetId`: Id): KeySetInfo?
+    
+    suspend fun `getMeltQuote`(`quoteId`: kotlin.String): MeltQuote?
+    
+    suspend fun `getMeltQuotes`(): List<MeltQuote>
+    
+    suspend fun `getMint`(`mintUrl`: MintUrl): MintInfo?
+    
+    suspend fun `getMintKeysets`(`mintUrl`: MintUrl): List<KeySetInfo>?
+    
+    suspend fun `getMintQuote`(`quoteId`: kotlin.String): MintQuote?
+    
+    suspend fun `getMintQuotes`(): List<MintQuote>
+    
+    suspend fun `getMints`(): Map<MintUrl, MintInfo?>
+    
+    suspend fun `getP2pkKey`(`pubkey`: PublicKey): P2pkSigningKey?
+    
+    suspend fun `getProofs`(`mintUrl`: MintUrl?, `unit`: CurrencyUnit?, `state`: List<ProofState>?, `spendingConditions`: List<SpendingConditions>?): List<ProofInfo>
+    
+    suspend fun `getProofsByYs`(`ys`: List<PublicKey>): List<ProofInfo>
+    
+    suspend fun `getReservedProofs`(`operationId`: kotlin.String): List<ProofInfo>
+    
+    suspend fun `getSaga`(`id`: kotlin.String): kotlin.String?
+    
+    suspend fun `getTransaction`(`transactionId`: TransactionId): Transaction?
+    
+    suspend fun `getUnissuedMintQuotes`(): List<MintQuote>
+    
+    suspend fun `incrementKeysetCounter`(`keysetId`: Id, `count`: kotlin.UInt): kotlin.UInt
+    
+    suspend fun `kvList`(`primaryNamespace`: kotlin.String, `secondaryNamespace`: kotlin.String): List<kotlin.String>
+    
+    suspend fun `kvRead`(`primaryNamespace`: kotlin.String, `secondaryNamespace`: kotlin.String, `key`: kotlin.String): kotlin.ByteArray?
+    
+    suspend fun `kvRemove`(`primaryNamespace`: kotlin.String, `secondaryNamespace`: kotlin.String, `key`: kotlin.String)
+    
+    suspend fun `kvWrite`(`primaryNamespace`: kotlin.String, `secondaryNamespace`: kotlin.String, `key`: kotlin.String, `value`: kotlin.ByteArray)
+    
+    suspend fun `latestP2pk`(): P2pkSigningKey?
+    
+    suspend fun `listP2pkKeys`(): List<P2pkSigningKey>
+    
+    suspend fun `listTransactions`(`mintUrl`: MintUrl?, `direction`: TransactionDirection?, `unit`: CurrencyUnit?): List<Transaction>
+    
+    suspend fun `releaseMeltQuote`(`operationId`: kotlin.String)
+    
+    suspend fun `releaseMintQuote`(`operationId`: kotlin.String)
+    
+    suspend fun `releaseProofs`(`operationId`: kotlin.String)
+    
+    suspend fun `removeKeys`(`id`: Id)
+    
+    suspend fun `removeMeltQuote`(`quoteId`: kotlin.String)
+    
+    suspend fun `removeMint`(`mintUrl`: MintUrl)
+    
+    suspend fun `removeMintQuote`(`quoteId`: kotlin.String)
+    
+    suspend fun `removeTransaction`(`transactionId`: TransactionId)
+    
+    suspend fun `reserveMeltQuote`(`quoteId`: kotlin.String, `operationId`: kotlin.String)
+    
+    suspend fun `reserveMintQuote`(`quoteId`: kotlin.String, `operationId`: kotlin.String)
+    
+    suspend fun `reserveProofs`(`ys`: List<PublicKey>, `operationId`: kotlin.String)
+    
+    suspend fun `updateMintUrl`(`oldMintUrl`: MintUrl, `newMintUrl`: MintUrl)
+    
+    suspend fun `updateProofs`(`added`: List<ProofInfo>, `removedYs`: List<PublicKey>)
+    
+    suspend fun `updateProofsState`(`ys`: List<PublicKey>, `state`: ProofState)
+    
+    suspend fun `updateSaga`(`sagaJson`: kotlin.String): kotlin.Boolean
+    
+    companion object
+}
+
+open class WalletPostgresDatabase: Disposable, AutoCloseable, WalletPostgresDatabaseInterface
+, WalletDatabase
+
+{
+
+    @Suppress("UNUSED_PARAMETER")
+    /**
+     * @suppress
+     */
+    constructor(withHandle: UniffiWithHandle, handle: Long) {
+        this.handle = handle
+        this.cleanable = UniffiLib.CLEANER.register(this, UniffiCleanAction(handle))
+    }
+
+    /**
+     * @suppress
+     *
+     * This constructor can be used to instantiate a fake object. Only used for tests. Any
+     * attempt to actually use an object constructed this way will fail as there is no
+     * connected Rust object.
+     */
+    @Suppress("UNUSED_PARAMETER")
+    constructor(noHandle: NoHandle) {
+        this.handle = 0
+        this.cleanable = UniffiLib.CLEANER.register(this, UniffiCleanAction(handle))
+    }
+    /**
+     * Create a new Postgres-backed wallet database
+     * Requires cdk-ffi to be built with feature "postgres".
+     * Example URL:
+     * "host=localhost user=test password=test dbname=testdb port=5433 schema=wallet sslmode=prefer"
+     */
+    constructor(`url`: kotlin.String) :
+        this(UniffiWithHandle, 
+    uniffiRustCallWithError(FfiException) { _status ->
+    UniffiLib.uniffi_cdk_ffi_fn_constructor_walletpostgresdatabase_new(
+    
+        FfiConverterString.lower(`url`),_status)
+}
+    )
+
+    protected val handle: Long
+    protected val cleanable: UniffiCleaner.Cleanable
+
+    private val wasDestroyed = AtomicBoolean(false)
+    private val callCounter = AtomicLong(1)
+
+    override fun destroy() {
+        // Only allow a single call to this method.
+        // TODO: maybe we should log a warning if called more than once?
+        if (this.wasDestroyed.compareAndSet(false, true)) {
+            // This decrement always matches the initial count of 1 given at creation time.
+            if (this.callCounter.decrementAndGet() == 0L) {
+                cleanable.clean()
+            }
+        }
+    }
+
+    @Synchronized
+    override fun close() {
+        this.destroy()
+    }
+
+    internal inline fun <R> callWithHandle(block: (handle: Long) -> R): R {
+        // Check and increment the call counter, to keep the object alive.
+        // This needs a compare-and-set retry loop in case of concurrent updates.
+        do {
+            val c = this.callCounter.get()
+            if (c == 0L) {
+                throw IllegalStateException("${this.javaClass.simpleName} object has already been destroyed")
+            }
+            if (c == Long.MAX_VALUE) {
+                throw IllegalStateException("${this.javaClass.simpleName} call counter would overflow")
+            }
+        } while (! this.callCounter.compareAndSet(c, c + 1L))
+        // Now we can safely do the method call without the handle being freed concurrently.
+        try {
+            return block(this.uniffiCloneHandle())
+        } finally {
+            // This decrement always matches the increment we performed above.
+            if (this.callCounter.decrementAndGet() == 0L) {
+                cleanable.clean()
+            }
+        }
+    }
+
+    // Use a static inner class instead of a closure so as not to accidentally
+    // capture `this` as part of the cleanable's action.
+    private class UniffiCleanAction(private val handle: Long) : Runnable {
+        override fun run() {
+            if (handle == 0.toLong()) {
+                // Fake object created with `NoHandle`, don't try to free.
+                return;
+            }
+            uniffiRustCall { status ->
+                UniffiLib.uniffi_cdk_ffi_fn_free_walletpostgresdatabase(handle, status)
+            }
+        }
+    }
+
+    /**
+     * @suppress
+     */
+    fun uniffiCloneHandle(): Long {
+        if (handle == 0.toLong()) {
+            throw InternalException("uniffiCloneHandle() called on NoHandle object");
+        }
+        return uniffiRustCall() { status ->
+            UniffiLib.uniffi_cdk_ffi_fn_clone_walletpostgresdatabase(handle, status)
+        }
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `addKeys`(`keyset`: KeySet) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_add_keys(
+                uniffiHandle,
+                FfiConverterTypeKeySet.lower(`keyset`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `addMeltQuote`(`quote`: MeltQuote) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_add_melt_quote(
+                uniffiHandle,
+                FfiConverterTypeMeltQuote.lower(`quote`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `addMint`(`mintUrl`: MintUrl, `mintInfo`: MintInfo?) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_add_mint(
+                uniffiHandle,
+                FfiConverterTypeMintUrl.lower(`mintUrl`),FfiConverterOptionalTypeMintInfo.lower(`mintInfo`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `addMintKeysets`(`mintUrl`: MintUrl, `keysets`: List<KeySetInfo>) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_add_mint_keysets(
+                uniffiHandle,
+                FfiConverterTypeMintUrl.lower(`mintUrl`),FfiConverterSequenceTypeKeySetInfo.lower(`keysets`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `addMintQuote`(`quote`: MintQuote) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_add_mint_quote(
+                uniffiHandle,
+                FfiConverterTypeMintQuote.lower(`quote`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `addP2pkKey`(`pubkey`: PublicKey, `derivationPath`: kotlin.String, `derivationIndex`: kotlin.UInt) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_add_p2pk_key(
+                uniffiHandle,
+                FfiConverterTypePublicKey.lower(`pubkey`),FfiConverterString.lower(`derivationPath`),FfiConverterUInt.lower(`derivationIndex`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `addSaga`(`sagaJson`: kotlin.String) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_add_saga(
+                uniffiHandle,
+                FfiConverterString.lower(`sagaJson`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `addTransaction`(`transaction`: Transaction) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_add_transaction(
+                uniffiHandle,
+                FfiConverterTypeTransaction.lower(`transaction`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `deleteSaga`(`id`: kotlin.String) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_delete_saga(
+                uniffiHandle,
+                FfiConverterString.lower(`id`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `getBalance`(`mintUrl`: MintUrl?, `unit`: CurrencyUnit?, `state`: List<ProofState>?) : kotlin.ULong {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_balance(
+                uniffiHandle,
+                FfiConverterOptionalTypeMintUrl.lower(`mintUrl`),FfiConverterOptionalTypeCurrencyUnit.lower(`unit`),FfiConverterOptionalSequenceTypeProofState.lower(`state`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_u64(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_u64(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_u64(future) },
+        // lift function
+        { FfiConverterULong.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `getIncompleteSagas`() : List<kotlin.String> {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_incomplete_sagas(
+                uniffiHandle,
+                
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterSequenceString.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `getKeys`(`id`: Id) : Keys? {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_keys(
+                uniffiHandle,
+                FfiConverterTypeId.lower(`id`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterOptionalTypeKeys.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `getKeysetById`(`keysetId`: Id) : KeySetInfo? {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_keyset_by_id(
+                uniffiHandle,
+                FfiConverterTypeId.lower(`keysetId`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterOptionalTypeKeySetInfo.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `getMeltQuote`(`quoteId`: kotlin.String) : MeltQuote? {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_melt_quote(
+                uniffiHandle,
+                FfiConverterString.lower(`quoteId`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterOptionalTypeMeltQuote.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `getMeltQuotes`() : List<MeltQuote> {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_melt_quotes(
+                uniffiHandle,
+                
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterSequenceTypeMeltQuote.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `getMint`(`mintUrl`: MintUrl) : MintInfo? {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_mint(
+                uniffiHandle,
+                FfiConverterTypeMintUrl.lower(`mintUrl`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterOptionalTypeMintInfo.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `getMintKeysets`(`mintUrl`: MintUrl) : List<KeySetInfo>? {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_mint_keysets(
+                uniffiHandle,
+                FfiConverterTypeMintUrl.lower(`mintUrl`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterOptionalSequenceTypeKeySetInfo.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `getMintQuote`(`quoteId`: kotlin.String) : MintQuote? {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_mint_quote(
+                uniffiHandle,
+                FfiConverterString.lower(`quoteId`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterOptionalTypeMintQuote.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `getMintQuotes`() : List<MintQuote> {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_mint_quotes(
+                uniffiHandle,
+                
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterSequenceTypeMintQuote.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `getMints`() : Map<MintUrl, MintInfo?> {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_mints(
+                uniffiHandle,
+                
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterMapTypeMintUrlOptionalTypeMintInfo.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `getP2pkKey`(`pubkey`: PublicKey) : P2pkSigningKey? {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_p2pk_key(
+                uniffiHandle,
+                FfiConverterTypePublicKey.lower(`pubkey`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterOptionalTypeP2PKSigningKey.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `getProofs`(`mintUrl`: MintUrl?, `unit`: CurrencyUnit?, `state`: List<ProofState>?, `spendingConditions`: List<SpendingConditions>?) : List<ProofInfo> {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_proofs(
+                uniffiHandle,
+                FfiConverterOptionalTypeMintUrl.lower(`mintUrl`),FfiConverterOptionalTypeCurrencyUnit.lower(`unit`),FfiConverterOptionalSequenceTypeProofState.lower(`state`),FfiConverterOptionalSequenceTypeSpendingConditions.lower(`spendingConditions`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterSequenceTypeProofInfo.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `getProofsByYs`(`ys`: List<PublicKey>) : List<ProofInfo> {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_proofs_by_ys(
+                uniffiHandle,
+                FfiConverterSequenceTypePublicKey.lower(`ys`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterSequenceTypeProofInfo.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `getReservedProofs`(`operationId`: kotlin.String) : List<ProofInfo> {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_reserved_proofs(
+                uniffiHandle,
+                FfiConverterString.lower(`operationId`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterSequenceTypeProofInfo.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `getSaga`(`id`: kotlin.String) : kotlin.String? {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_saga(
+                uniffiHandle,
+                FfiConverterString.lower(`id`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterOptionalString.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `getTransaction`(`transactionId`: TransactionId) : Transaction? {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_transaction(
+                uniffiHandle,
+                FfiConverterTypeTransactionId.lower(`transactionId`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterOptionalTypeTransaction.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `getUnissuedMintQuotes`() : List<MintQuote> {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_get_unissued_mint_quotes(
+                uniffiHandle,
+                
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterSequenceTypeMintQuote.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `incrementKeysetCounter`(`keysetId`: Id, `count`: kotlin.UInt) : kotlin.UInt {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_increment_keyset_counter(
+                uniffiHandle,
+                FfiConverterTypeId.lower(`keysetId`),FfiConverterUInt.lower(`count`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_u32(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_u32(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_u32(future) },
+        // lift function
+        { FfiConverterUInt.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `kvList`(`primaryNamespace`: kotlin.String, `secondaryNamespace`: kotlin.String) : List<kotlin.String> {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_kv_list(
+                uniffiHandle,
+                FfiConverterString.lower(`primaryNamespace`),FfiConverterString.lower(`secondaryNamespace`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterSequenceString.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `kvRead`(`primaryNamespace`: kotlin.String, `secondaryNamespace`: kotlin.String, `key`: kotlin.String) : kotlin.ByteArray? {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_kv_read(
+                uniffiHandle,
+                FfiConverterString.lower(`primaryNamespace`),FfiConverterString.lower(`secondaryNamespace`),FfiConverterString.lower(`key`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterOptionalByteArray.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `kvRemove`(`primaryNamespace`: kotlin.String, `secondaryNamespace`: kotlin.String, `key`: kotlin.String) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_kv_remove(
+                uniffiHandle,
+                FfiConverterString.lower(`primaryNamespace`),FfiConverterString.lower(`secondaryNamespace`),FfiConverterString.lower(`key`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `kvWrite`(`primaryNamespace`: kotlin.String, `secondaryNamespace`: kotlin.String, `key`: kotlin.String, `value`: kotlin.ByteArray) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_kv_write(
+                uniffiHandle,
+                FfiConverterString.lower(`primaryNamespace`),FfiConverterString.lower(`secondaryNamespace`),FfiConverterString.lower(`key`),FfiConverterByteArray.lower(`value`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `latestP2pk`() : P2pkSigningKey? {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_latest_p2pk(
+                uniffiHandle,
+                
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterOptionalTypeP2PKSigningKey.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `listP2pkKeys`() : List<P2pkSigningKey> {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_list_p2pk_keys(
+                uniffiHandle,
+                
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterSequenceTypeP2PKSigningKey.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `listTransactions`(`mintUrl`: MintUrl?, `direction`: TransactionDirection?, `unit`: CurrencyUnit?) : List<Transaction> {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_list_transactions(
+                uniffiHandle,
+                FfiConverterOptionalTypeMintUrl.lower(`mintUrl`),FfiConverterOptionalTypeTransactionDirection.lower(`direction`),FfiConverterOptionalTypeCurrencyUnit.lower(`unit`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_rust_buffer(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_rust_buffer(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_rust_buffer(future) },
+        // lift function
+        { FfiConverterSequenceTypeTransaction.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `releaseMeltQuote`(`operationId`: kotlin.String) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_release_melt_quote(
+                uniffiHandle,
+                FfiConverterString.lower(`operationId`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `releaseMintQuote`(`operationId`: kotlin.String) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_release_mint_quote(
+                uniffiHandle,
+                FfiConverterString.lower(`operationId`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `releaseProofs`(`operationId`: kotlin.String) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_release_proofs(
+                uniffiHandle,
+                FfiConverterString.lower(`operationId`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `removeKeys`(`id`: Id) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_remove_keys(
+                uniffiHandle,
+                FfiConverterTypeId.lower(`id`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `removeMeltQuote`(`quoteId`: kotlin.String) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_remove_melt_quote(
+                uniffiHandle,
+                FfiConverterString.lower(`quoteId`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `removeMint`(`mintUrl`: MintUrl) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_remove_mint(
+                uniffiHandle,
+                FfiConverterTypeMintUrl.lower(`mintUrl`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `removeMintQuote`(`quoteId`: kotlin.String) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_remove_mint_quote(
+                uniffiHandle,
+                FfiConverterString.lower(`quoteId`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `removeTransaction`(`transactionId`: TransactionId) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_remove_transaction(
+                uniffiHandle,
+                FfiConverterTypeTransactionId.lower(`transactionId`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `reserveMeltQuote`(`quoteId`: kotlin.String, `operationId`: kotlin.String) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_reserve_melt_quote(
+                uniffiHandle,
+                FfiConverterString.lower(`quoteId`),FfiConverterString.lower(`operationId`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `reserveMintQuote`(`quoteId`: kotlin.String, `operationId`: kotlin.String) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_reserve_mint_quote(
+                uniffiHandle,
+                FfiConverterString.lower(`quoteId`),FfiConverterString.lower(`operationId`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `reserveProofs`(`ys`: List<PublicKey>, `operationId`: kotlin.String) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_reserve_proofs(
+                uniffiHandle,
+                FfiConverterSequenceTypePublicKey.lower(`ys`),FfiConverterString.lower(`operationId`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `updateMintUrl`(`oldMintUrl`: MintUrl, `newMintUrl`: MintUrl) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_update_mint_url(
+                uniffiHandle,
+                FfiConverterTypeMintUrl.lower(`oldMintUrl`),FfiConverterTypeMintUrl.lower(`newMintUrl`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `updateProofs`(`added`: List<ProofInfo>, `removedYs`: List<PublicKey>) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_update_proofs(
+                uniffiHandle,
+                FfiConverterSequenceTypeProofInfo.lower(`added`),FfiConverterSequenceTypePublicKey.lower(`removedYs`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `updateProofsState`(`ys`: List<PublicKey>, `state`: ProofState) {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_update_proofs_state(
+                uniffiHandle,
+                FfiConverterSequenceTypePublicKey.lower(`ys`),FfiConverterTypeProofState.lower(`state`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_void(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_void(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_void(future) },
+        // lift function
+        { Unit },
+        
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+    @Throws(FfiException::class)
+    @Suppress("ASSIGNED_BUT_NEVER_ACCESSED_VARIABLE")
+    override suspend fun `updateSaga`(`sagaJson`: kotlin.String) : kotlin.Boolean {
+        return uniffiRustCallAsync(
+        callWithHandle { uniffiHandle ->
+            UniffiLib.uniffi_cdk_ffi_fn_method_walletpostgresdatabase_update_saga(
+                uniffiHandle,
+                FfiConverterString.lower(`sagaJson`),
+            )
+        },
+        { future, callback, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_poll_i8(future, callback, continuation) },
+        { future, continuation -> UniffiLib.ffi_cdk_ffi_rust_future_complete_i8(future, continuation) },
+        { future -> UniffiLib.ffi_cdk_ffi_rust_future_free_i8(future) },
+        // lift function
+        { FfiConverterBoolean.lift(it) },
+        // Error FFI converter
+        FfiException.ErrorHandler,
+    )
+    }
+
+    
+
+    
+
+
+    
+    
+    /**
+     * @suppress
+     */
+    companion object
+    
+}
+
+
+/**
+ * @suppress
+ */
+public object FfiConverterTypeWalletPostgresDatabase: FfiConverter<WalletPostgresDatabase, Long> {
+    override fun lower(value: WalletPostgresDatabase): Long {
+        return value.uniffiCloneHandle()
+    }
+
+    override fun lift(value: Long): WalletPostgresDatabase {
+        return WalletPostgresDatabase(UniffiWithHandle, value)
+    }
+
+    override fun read(buf: ByteBuffer): WalletPostgresDatabase {
+        return lift(buf.getLong())
+    }
+
+    override fun allocationSize(value: WalletPostgresDatabase) = 8UL
+
+    override fun write(value: WalletPostgresDatabase, buf: ByteBuffer) {
+        buf.putLong(lower(value))
+    }
+}
+
+
+// This template implements a class for working with a Rust struct via a handle
+// to the live Rust struct on the other side of the FFI.
+//
+// There's some subtlety here, because we have to be careful not to operate on a Rust
+// struct after it has been dropped, and because we must expose a public API for freeing
+// theq Kotlin wrapper object in lieu of reliable finalizers. The core requirements are:
+//
+//   * Each instance holds an opaque handle to the underlying Rust struct.
+//     Method calls need to read this handle from the object's state and pass it in to
+//     the Rust FFI.
+//
+//   * When an instance is no longer needed, its handle should be passed to a
+//     special destructor function provided by the Rust FFI, which will drop the
+//     underlying Rust struct.
+//
+//   * Given an instance, calling code is expected to call the special
+//     `destroy` method in order to free it after use, either by calling it explicitly
+//     or by using a higher-level helper like the `use` method. Failing to do so risks
+//     leaking the underlying Rust struct.
+//
+//   * We can't assume that calling code will do the right thing, and must be prepared
+//     to handle Kotlin method calls executing concurrently with or even after a call to
+//     `destroy`, and to handle multiple (possibly concurrent!) calls to `destroy`.
+//
+//   * We must never allow Rust code to operate on the underlying Rust struct after
+//     the destructor has been called, and must never call the destructor more than once.
+//     Doing so may trigger memory unsafety.
+//
+//   * To mitigate many of the risks of leaking memory and use-after-free unsafety, a `Cleaner`
+//     is implemented to call the destructor when the Kotlin object becomes unreachable.
+//     This is done in a background thread. This is not a panacea, and client code should be aware that
+//      1. the thread may starve if some there are objects that have poorly performing
+//     `drop` methods or do significant work in their `drop` methods.
+//      2. the thread is shared across the whole library. This can be tuned by using `android_cleaner = true`,
+//         or `android = true` in the [`kotlin` section of the `uniffi.toml` file](https://mozilla.github.io/uniffi-rs/kotlin/configuration.html).
+//
+// If we try to implement this with mutual exclusion on access to the handle, there is the
+// possibility of a race between a method call and a concurrent call to `destroy`:
+//
+//    * Thread A starts a method call, reads the value of the handle, but is interrupted
+//      before it can pass the handle over the FFI to Rust.
+//    * Thread B calls `destroy` and frees the underlying Rust struct.
+//    * Thread A resumes, passing the already-read handle value to Rust and triggering
+//      a use-after-free.
+//
+// One possible solution would be to use a `ReadWriteLock`, with each method call taking
+// a read lock (and thus allowed to run concurrently) and the special `destroy` method
+// taking a write lock (and thus blocking on live method calls). However, we aim not to
+// generate methods with any hidden blocking semantics, and a `destroy` method that might
+// block if called incorrectly seems to meet that bar.
+//
+// So, we achieve our goals by giving each instance an associated `AtomicLong` counter to track
+// the number of in-flight method calls, and an `AtomicBoolean` flag to indicate whether `destroy`
+// has been called. These are updated according to the following rules:
+//
+//    * The initial value of the counter is 1, indicating a live object with no in-flight calls.
+//      The initial value for the flag is false.
+//
+//    * At the start of each method call, we atomically check the counter.
+//      If it is 0 then the underlying Rust struct has already been destroyed and the call is aborted.
+//      If it is nonzero them we atomically increment it by 1 and proceed with the method call.
+//
+//    * At the end of each method call, we atomically decrement and check the counter.
+//      If it has reached zero then we destroy the underlying Rust struct.
+//
+//    * When `destroy` is called, we atomically flip the flag from false to true.
+//      If the flag was already true we silently fail.
+//      Otherwise we atomically decrement and check the counter.
+//      If it has reached zero then we destroy the underlying Rust struct.
+//
+// Astute readers may observe that this all sounds very similar to the way that Rust's `Arc<T>` works,
+// and indeed it is, with the addition of a flag to guard against multiple calls to `destroy`.
+//
+// The overall effect is that the underlying Rust struct is destroyed only when `destroy` has been
+// called *and* all in-flight method calls have completed, avoiding violating any of the expectations
+// of the underlying Rust code.
+//
+// This makes a cleaner a better alternative to _not_ calling `destroy()` as
+// and when the object is finished with, but the abstraction is not perfect: if the Rust object's `drop`
+// method is slow, and/or there are many objects to cleanup, and it's on a low end Android device, then the cleaner
+// thread may be starved, and the app will leak memory.
+//
+// In this case, `destroy`ing manually may be a better solution.
+//
+// The cleaner can live side by side with the manual calling of `destroy`. In the order of responsiveness, uniffi objects
+// with Rust peers are reclaimed:
+//
+// 1. By calling the `destroy` method of the object, which calls `rustObject.free()`. If that doesn't happen:
+// 2. When the object becomes unreachable, AND the Cleaner thread gets to call `rustObject.free()`. If the thread is starved then:
+// 3. The memory is reclaimed when the process terminates.
+//
+// [1] https://stackoverflow.com/questions/24376768/can-java-finalize-an-object-when-it-is-still-in-scope/24380219
+//
+
+
+//
 /**
  * FFI-compatible WalletRepository
  */
@@ -15179,6 +17034,11 @@ data class CreateRequestParams (
      * Nostr relay URLs (required if transport is "nostr")
      */
     var `nostrRelays`: List<kotlin.String>?
+    , 
+    /**
+     * Optional list of mint URLs the receiver trusts. If not provided, the wallet's current mints for the requested unit will be used.
+     */
+    var `mints`: List<kotlin.String>?
     
 ){
     
@@ -15203,6 +17063,7 @@ public object FfiConverterTypeCreateRequestParams: FfiConverterRustBuffer<Create
             FfiConverterString.read(buf),
             FfiConverterOptionalString.read(buf),
             FfiConverterOptionalSequenceString.read(buf),
+            FfiConverterOptionalSequenceString.read(buf),
         )
     }
 
@@ -15216,7 +17077,8 @@ public object FfiConverterTypeCreateRequestParams: FfiConverterRustBuffer<Create
             FfiConverterOptionalString.allocationSize(value.`preimage`) +
             FfiConverterString.allocationSize(value.`transport`) +
             FfiConverterOptionalString.allocationSize(value.`httpUrl`) +
-            FfiConverterOptionalSequenceString.allocationSize(value.`nostrRelays`)
+            FfiConverterOptionalSequenceString.allocationSize(value.`nostrRelays`) +
+            FfiConverterOptionalSequenceString.allocationSize(value.`mints`)
     )
 
     override fun write(value: CreateRequestParams, buf: ByteBuffer) {
@@ -15230,6 +17092,7 @@ public object FfiConverterTypeCreateRequestParams: FfiConverterRustBuffer<Create
             FfiConverterString.write(value.`transport`, buf)
             FfiConverterOptionalString.write(value.`httpUrl`, buf)
             FfiConverterOptionalSequenceString.write(value.`nostrRelays`, buf)
+            FfiConverterOptionalSequenceString.write(value.`mints`, buf)
     }
 }
 
@@ -15813,9 +17676,9 @@ data class MeltQuote (
     var `expiry`: kotlin.ULong
     , 
     /**
-     * Payment preimage
+     * Payment proof
      */
-    var `paymentPreimage`: kotlin.String?
+    var `paymentProof`: kotlin.String?
     , 
     /**
      * Payment method
@@ -15869,7 +17732,7 @@ public object FfiConverterTypeMeltQuote: FfiConverterRustBuffer<MeltQuote> {
             FfiConverterTypeAmount.allocationSize(value.`feeReserve`) +
             FfiConverterTypeQuoteState.allocationSize(value.`state`) +
             FfiConverterULong.allocationSize(value.`expiry`) +
-            FfiConverterOptionalString.allocationSize(value.`paymentPreimage`) +
+            FfiConverterOptionalString.allocationSize(value.`paymentProof`) +
             FfiConverterTypePaymentMethod.allocationSize(value.`paymentMethod`) +
             FfiConverterOptionalString.allocationSize(value.`usedByOperation`) +
             FfiConverterUInt.allocationSize(value.`version`)
@@ -15884,7 +17747,7 @@ public object FfiConverterTypeMeltQuote: FfiConverterRustBuffer<MeltQuote> {
             FfiConverterTypeAmount.write(value.`feeReserve`, buf)
             FfiConverterTypeQuoteState.write(value.`state`, buf)
             FfiConverterULong.write(value.`expiry`, buf)
-            FfiConverterOptionalString.write(value.`paymentPreimage`, buf)
+            FfiConverterOptionalString.write(value.`paymentProof`, buf)
             FfiConverterTypePaymentMethod.write(value.`paymentMethod`, buf)
             FfiConverterOptionalString.write(value.`usedByOperation`, buf)
             FfiConverterUInt.write(value.`version`, buf)
@@ -15923,9 +17786,9 @@ data class MeltQuoteBolt11Response (
     var `expiry`: kotlin.ULong
     , 
     /**
-     * Payment preimage (optional)
+     * Payment proof (optional)
      */
-    var `paymentPreimage`: kotlin.String?
+    var `paymentProof`: kotlin.String?
     , 
     /**
      * Request string (optional)
@@ -15967,7 +17830,7 @@ public object FfiConverterTypeMeltQuoteBolt11Response: FfiConverterRustBuffer<Me
             FfiConverterTypeAmount.allocationSize(value.`feeReserve`) +
             FfiConverterTypeQuoteState.allocationSize(value.`state`) +
             FfiConverterULong.allocationSize(value.`expiry`) +
-            FfiConverterOptionalString.allocationSize(value.`paymentPreimage`) +
+            FfiConverterOptionalString.allocationSize(value.`paymentProof`) +
             FfiConverterOptionalString.allocationSize(value.`request`) +
             FfiConverterOptionalTypeCurrencyUnit.allocationSize(value.`unit`)
     )
@@ -15978,7 +17841,7 @@ public object FfiConverterTypeMeltQuoteBolt11Response: FfiConverterRustBuffer<Me
             FfiConverterTypeAmount.write(value.`feeReserve`, buf)
             FfiConverterTypeQuoteState.write(value.`state`, buf)
             FfiConverterULong.write(value.`expiry`, buf)
-            FfiConverterOptionalString.write(value.`paymentPreimage`, buf)
+            FfiConverterOptionalString.write(value.`paymentProof`, buf)
             FfiConverterOptionalString.write(value.`request`, buf)
             FfiConverterOptionalTypeCurrencyUnit.write(value.`unit`, buf)
     }
@@ -16019,9 +17882,9 @@ data class MeltQuoteCustomResponse (
     var `expiry`: kotlin.ULong
     , 
     /**
-     * Payment preimage (optional)
+     * Payment proof (optional)
      */
-    var `paymentPreimage`: kotlin.String?
+    var `paymentProof`: kotlin.String?
     , 
     /**
      * Request string (optional)
@@ -16072,7 +17935,7 @@ public object FfiConverterTypeMeltQuoteCustomResponse: FfiConverterRustBuffer<Me
             FfiConverterTypeAmount.allocationSize(value.`feeReserve`) +
             FfiConverterTypeQuoteState.allocationSize(value.`state`) +
             FfiConverterULong.allocationSize(value.`expiry`) +
-            FfiConverterOptionalString.allocationSize(value.`paymentPreimage`) +
+            FfiConverterOptionalString.allocationSize(value.`paymentProof`) +
             FfiConverterOptionalString.allocationSize(value.`request`) +
             FfiConverterOptionalTypeCurrencyUnit.allocationSize(value.`unit`) +
             FfiConverterOptionalString.allocationSize(value.`extra`)
@@ -16084,7 +17947,7 @@ public object FfiConverterTypeMeltQuoteCustomResponse: FfiConverterRustBuffer<Me
             FfiConverterTypeAmount.write(value.`feeReserve`, buf)
             FfiConverterTypeQuoteState.write(value.`state`, buf)
             FfiConverterULong.write(value.`expiry`, buf)
-            FfiConverterOptionalString.write(value.`paymentPreimage`, buf)
+            FfiConverterOptionalString.write(value.`paymentProof`, buf)
             FfiConverterOptionalString.write(value.`request`, buf)
             FfiConverterOptionalTypeCurrencyUnit.write(value.`unit`, buf)
             FfiConverterOptionalString.write(value.`extra`, buf)
@@ -19793,6 +21656,15 @@ sealed class WalletDbBackend {
         companion object
     }
     
+    data class Postgres(
+        val `url`: kotlin.String) : WalletDbBackend()
+        
+    {
+        
+
+        companion object
+    }
+    
 
     
     companion object
@@ -19807,6 +21679,9 @@ public object FfiConverterTypeWalletDbBackend : FfiConverterRustBuffer<WalletDbB
             1 -> WalletDbBackend.Sqlite(
                 FfiConverterString.read(buf),
                 )
+            2 -> WalletDbBackend.Postgres(
+                FfiConverterString.read(buf),
+                )
             else -> throw RuntimeException("invalid enum value, something is very wrong!!")
         }
     }
@@ -19819,6 +21694,13 @@ public object FfiConverterTypeWalletDbBackend : FfiConverterRustBuffer<WalletDbB
                 + FfiConverterString.allocationSize(value.`path`)
             )
         }
+        is WalletDbBackend.Postgres -> {
+            // Add the size for the Int that specifies the variant plus the size needed for all fields
+            (
+                4UL
+                + FfiConverterString.allocationSize(value.`url`)
+            )
+        }
     }
 
     override fun write(value: WalletDbBackend, buf: ByteBuffer) {
@@ -19826,6 +21708,11 @@ public object FfiConverterTypeWalletDbBackend : FfiConverterRustBuffer<WalletDbB
             is WalletDbBackend.Sqlite -> {
                 buf.putInt(1)
                 FfiConverterString.write(value.`path`, buf)
+                Unit
+            }
+            is WalletDbBackend.Postgres -> {
+                buf.putInt(2)
+                FfiConverterString.write(value.`url`, buf)
                 Unit
             }
         }.let { /* this makes the `when` an expression, which ensures it is exhaustive */ }
@@ -19855,6 +21742,15 @@ sealed class WalletStore: Disposable  {
         companion object
     }
     
+    data class Postgres(
+        val `url`: kotlin.String) : WalletStore()
+        
+    {
+        
+
+        companion object
+    }
+    
     data class Custom(
         val `db`: WalletDatabase) : WalletStore()
         
@@ -19873,6 +21769,13 @@ sealed class WalletStore: Disposable  {
                 
     Disposable.destroy(
         this.`path`
+    )
+                
+            }
+            is WalletStore.Postgres -> {
+                
+    Disposable.destroy(
+        this.`url`
     )
                 
             }
@@ -19898,7 +21801,10 @@ public object FfiConverterTypeWalletStore : FfiConverterRustBuffer<WalletStore>{
             1 -> WalletStore.Sqlite(
                 FfiConverterString.read(buf),
                 )
-            2 -> WalletStore.Custom(
+            2 -> WalletStore.Postgres(
+                FfiConverterString.read(buf),
+                )
+            3 -> WalletStore.Custom(
                 FfiConverterTypeWalletDatabase.read(buf),
                 )
             else -> throw RuntimeException("invalid enum value, something is very wrong!!")
@@ -19911,6 +21817,13 @@ public object FfiConverterTypeWalletStore : FfiConverterRustBuffer<WalletStore>{
             (
                 4UL
                 + FfiConverterString.allocationSize(value.`path`)
+            )
+        }
+        is WalletStore.Postgres -> {
+            // Add the size for the Int that specifies the variant plus the size needed for all fields
+            (
+                4UL
+                + FfiConverterString.allocationSize(value.`url`)
             )
         }
         is WalletStore.Custom -> {
@@ -19929,8 +21842,13 @@ public object FfiConverterTypeWalletStore : FfiConverterRustBuffer<WalletStore>{
                 FfiConverterString.write(value.`path`, buf)
                 Unit
             }
-            is WalletStore.Custom -> {
+            is WalletStore.Postgres -> {
                 buf.putInt(2)
+                FfiConverterString.write(value.`url`, buf)
+                Unit
+            }
+            is WalletStore.Custom -> {
+                buf.putInt(3)
                 FfiConverterTypeWalletDatabase.write(value.`db`, buf)
                 Unit
             }
@@ -22971,6 +24889,19 @@ public object FfiConverterMapTypeWalletKeyTypeAmount: FfiConverterRustBuffer<Map
         FfiException.ErrorHandler,
     )
     }
+
+        /**
+         * Create a PostgreSQL-backed wallet store.
+         */ fun `postgresWalletStore`(`url`: kotlin.String): WalletStore {
+            return FfiConverterTypeWalletStore.lift(
+    uniffiRustCall() { _status ->
+    UniffiLib.uniffi_cdk_ffi_fn_func_postgres_wallet_store(
+    
+        FfiConverterString.lower(`url`),_status)
+}
+    )
+    }
+    
 
         /**
          * Check if proof has DLEQ proof
