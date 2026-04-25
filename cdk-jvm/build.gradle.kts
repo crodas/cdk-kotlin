@@ -39,7 +39,7 @@ tasks.test {
         showStandardStreams = true
     }
     systemProperty("junit.jupiter.execution.timeout.default", "60s")
-    systemProperty("uniffi.component.cdk_ffi.libraryOverride", "cdk_ffi_kotlin")
+    systemProperty("uniffi.component.cdk_ffi.libraryOverride", "cdk_ffi")
     jvmArgs("-Djava.library.path=${project.projectDir}/src/main/resources")
 }
 
