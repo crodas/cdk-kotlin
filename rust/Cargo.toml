@@ -2,22 +2,22 @@
 name = "cdk-ffi-kotlin"
 edition = "2021"
 rust-version = "1.85.0"
-license = "MIT"
+license = "Apache-2.0 OR MIT"
 homepage = "https://github.com/cashubtc/cdk"
 repository = "https://github.com/cashubtc/cdk.git"
-version = "0.17.0-rc.3"
+version = "0.18.0"
 readme = "README.md"
 
 [lib]
 crate-type = ["staticlib", "cdylib"]
-name = "cdk_ffi"
+name = "cdk_ffi_kotlin"
 
 [[bin]]
-name = "uniffi-bindgen"
+name = "uniffi-bindgen-kotlin"
 path = "uniffi-bindgen.rs"
 
 [dependencies]
-cdk-ffi = { version = "=0.17.0-rc.3", default-features = false, features = ["npubcash", "bip353"] }
+cdk-ffi = { git = "https://github.com/crodas/cdk", rev = "9f188e135c84034c7c7b9151884fa4066cdfcd53", default-features = false, features = ["npubcash", "nwc", "bip353"] }
 uniffi = { version = "0.30", features = ["cli"] }
 
 [build-dependencies]
@@ -26,7 +26,9 @@ uniffi = { version = "0.30", features = ["build"] }
 [lints]
 
 
+[workspace]
+
 [profile.release]
 lto = true
-strip = true
+strip = "debuginfo"
 codegen-units = 1
